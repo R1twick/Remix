@@ -6,34 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "TokenAbbrv",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string",
+						"internalType": "address",
 						"name": "",
-						"type": "string"
+						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "Tokenname",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "Totalsupply",
+				"name": "balances",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -79,6 +59,45 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenabbrv",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenname",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalsupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -94,7 +113,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"pedri/mytoken.sol": "MyToken"
+			"pedri/token.sol": "MyToken"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -108,12 +127,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"pedri/mytoken.sol": {
-			"keccak256": "0x7d237abf5a04b6e49adf0c06cad63ea9a1eb617aaac480ea33a195069fe2aec0",
+		"pedri/token.sol": {
+			"keccak256": "0x40a0ee0ee4be7ae3d5954607e3802a306b40702496a48ad59fa84e35a8867e79",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8191b0189f6cbd0e177b0cecf4233105da8993c6b87cc331ca848d7f56cfdd88",
-				"dweb:/ipfs/QmSGBmCpcBsgGrjGWPv1zgjNNmApAYcUtffHfBkbGpsZTg"
+				"bzz-raw://045102a0def842f883273204cca5882c36df3d719858426e421cb2cd4ceb96d3",
+				"dweb:/ipfs/QmRiLP3wrDNrJWAgDL89ZpHHptFiC7fv3X2JuH2LXvEeFP"
 			]
 		}
 	},
