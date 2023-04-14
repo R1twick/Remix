@@ -1,5 +1,5 @@
 {
-	"id": "8c53a0149e455dfbe45438ab6cff7e4b",
+	"id": "e6c1b05926895f578e74c4af4c4e73a0",
 	"_format": "hh-sol-build-info-1",
 	"solcVersion": "0.8.18",
 	"solcLongVersion": "0.8.18+commit.87f61d96",
@@ -7,7 +7,7 @@
 		"language": "Solidity",
 		"sources": {
 			"pedri/test.sol": {
-				"content": " "
+				"content": ""
 			}
 		},
 		"settings": {
@@ -74,7 +74,7 @@
 					"id": 1,
 					"nodeType": "SourceUnit",
 					"nodes": [],
-					"src": "1:0:0"
+					"src": "0:0:0"
 				},
 				"id": 0
 			}

@@ -1,35 +1,38 @@
 {
 	"compiler": {
-		"version": "0.8.17+commit.8df45f5f"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getbalance",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "Changestructure",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "s1",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "roll",
 						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "pay",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "payEther",
-				"outputs": [],
-				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -46,9 +49,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"pedri/paybale.sol": "test"
+			"pedri/structure.sol": "test"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -60,12 +63,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"pedri/paybale.sol": {
-			"keccak256": "0xd7b31e4a6a9509b2ae4c6e87a6fded750e0485e9a1d0611b51fc165c5b9ccb25",
-			"license": "MIT",
+		"pedri/structure.sol": {
+			"keccak256": "0x585aa4bec2725496f605a5a45a397f720d1f9c610559db8cffb2395688c678c2",
+			"license": "GPL-3.O",
 			"urls": [
-				"bzz-raw://f25876aaf8f99594612cc1134e5ea7d0819114cffd33d9965a818f26f3dc7f8c",
-				"dweb:/ipfs/QmbGo7nTuBCXY7CpmnTCT7cY1E7R7TL5GPkJPf2Bit5863"
+				"bzz-raw://de2c69f696a94cbd5a5581e59d9768d1c91a26db6786fc32b55c3d69e694a57b",
+				"dweb:/ipfs/QmcNGBkfw93mLmrwbWFD68mpY6VsgW9BFNGNMNgCvSELK4"
 			]
 		}
 	},
