@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"pedri/loop.sol": "Loop"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"pedri/loop.sol": {
+			"keccak256": "0xe912b1997d0bfd292f3b931b86879214cb69242d7eb26eeb64c7739991f0c372",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d273da5fb6cf91d9b1e42fcfd773cd9e0fce8ea9e0a4598f6883f9b014834542",
+				"dweb:/ipfs/QmdDVGWwiFd8jAW17QUxWKyisTTasi7HKGzEpDTtuHKn9q"
+			]
+		}
+	},
+	"version": 1
+}

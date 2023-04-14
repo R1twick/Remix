@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint8",
+						"name": "id",
+						"type": "uint8"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Deposit",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "id",
+						"type": "uint8"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"pedri/event.sol": "Sample"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"pedri/event.sol": {
+			"keccak256": "0xc3d65c68733884ab91f4d158360b8d09fa7dcac17cf5830ff22195229feb4d17",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5039ca7c237b22f45c71e2710020966d68eb931f568a524e6ab7cd15434ea6fc",
+				"dweb:/ipfs/QmdR3vcRbRDmHu5vNeoinFFmxUyobkfzTRf9hQVZpoP2Cj"
+			]
+		}
+	},
+	"version": 1
+}

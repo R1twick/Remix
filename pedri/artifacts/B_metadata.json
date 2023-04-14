@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"pedri/store.sol": "B"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"pedri/store.sol": {
+			"keccak256": "0x901ba61fe13e38ce8c21e5ddd17dce5cde21e15c8ea06afc0afce52898cd98a1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ed237a6aeb3e01f8b8998cd6e0dc9e07870d20be47573cecf557e2c5fb56a51",
+				"dweb:/ipfs/Qmc8Gf57CeqX4FWcr32ALCg9SSWY6jErBNQapWVavANS1t"
+			]
+		}
+	},
+	"version": 1
+}

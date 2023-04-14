@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_a",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_b",
+						"type": "uint8"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "_sum",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"pedri/r.sol": "MyContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"pedri/r.sol": {
+			"keccak256": "0x141e0431eb4f4a87fc8eb6834e651b7e6621c17b2c84c2a0024f25362c11eaec",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5660b844277572f4eb49e1fc20f4b139f262cf102993f4c972a0144bb0f46054",
+				"dweb:/ipfs/Qmc2vTba8QkpfmyEHbRzD6JLBLxzEa6xTJLbdPzrJqWuqg"
+			]
+		}
+	},
+	"version": 1
+}

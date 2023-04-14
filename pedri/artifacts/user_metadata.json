@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "some",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "student_info",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"pedri/mapping.sol": "user"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"pedri/mapping.sol": {
+			"keccak256": "0x1016a447a103b97cf78b428e2081c54dc636cddc2f80d950b21c7cc608d783bf",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2370f59874069fd22679f3f94fe2beb6d78b37014750b76ddb54367dad919ed9",
+				"dweb:/ipfs/QmRk9EnTvsi3HUXYENT9zgmjwRxbqX4jXRELScvkrH8mCR"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getbalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pay",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"pedri/paybale.sol": "test"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"pedri/paybale.sol": {
+			"keccak256": "0xd7b31e4a6a9509b2ae4c6e87a6fded750e0485e9a1d0611b51fc165c5b9ccb25",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f25876aaf8f99594612cc1134e5ea7d0819114cffd33d9965a818f26f3dc7f8c",
+				"dweb:/ipfs/QmbGo7nTuBCXY7CpmnTCT7cY1E7R7TL5GPkJPf2Bit5863"
+			]
+		}
+	},
+	"version": 1
+}

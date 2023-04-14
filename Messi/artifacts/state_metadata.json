@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "new_age",
+						"type": "uint256"
+					}
+				],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Messi/bb.sol": "state"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Messi/bb.sol": {
+			"keccak256": "0xa472c5abc35d7363a9bf8bdc35e3bb237af7e896cad372bb37a104b4e50b5735",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://514f1fbf970d3fe6b8a3b7aeeeb0d72ef70f3051d1cd6c75cc4679bbbc4a4f1f",
+				"dweb:/ipfs/Qme5FPcAc1HpSTLm4L6ExZTuRobB4xvW1U5orR6FtyiiZx"
+			]
+		}
+	},
+	"version": 1
+}

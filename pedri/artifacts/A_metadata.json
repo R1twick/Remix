@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"pedri/s.sol": "A"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"pedri/s.sol": {
+			"keccak256": "0x1e473ada1156fbe49c66bf192a1e7811b9702a86e6917ad380159052f37092c3",
+			"urls": [
+				"bzz-raw://a4fcdd1a1c27661adf48c035cc3ba22cd91fa6ce21a214442791cc753a9ebf84",
+				"dweb:/ipfs/QmcUqZRghxydJ7jvs6SVc55pgo5gZPQQL8qEccGxoCBMpp"
+			]
+		}
+	},
+	"version": 1
+}

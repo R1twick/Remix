@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "adding",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"pedri/library.sol": "fun"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"pedri/library.sol": {
+			"keccak256": "0x040b6654253b0a7da78932e80fd43a166c40ff260bf7d56df8f0ba5b1fbdb7b6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9e94050162d849cb82261c1ccbb624d53dbb54f1d38e23eb28adc2dd7b1dfb8e",
+				"dweb:/ipfs/QmPaCvWaMeLpNhfSUfDdXtS1RzwRGLjfcBrNK8z4vC2pd5"
+			]
+		}
+	},
+	"version": 1
+}

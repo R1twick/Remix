@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"pedri/structure.sol": "Structure"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"pedri/structure.sol": {
+			"keccak256": "0x9a23a8fc9f748c5fd7549207f6ff56e2e6a1ce7f42e66e20dd982b634424d794",
+			"license": "GPL-3.O",
+			"urls": [
+				"bzz-raw://1008041414622baf5749cc8430ab7514e1d926827a0c06ee26fd76692864f4bd",
+				"dweb:/ipfs/QmQbDdx1rhjCtw523G6HMZtkDL5XGpCc3uvKgE8hhqU7yz"
+			]
+		}
+	},
+	"version": 1
+}
